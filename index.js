@@ -42,7 +42,7 @@ function valuesRead(err, values) {
     })
 }
 
-function sendServer() {
+function checkSentStatus() {
     db1.findOne({ sent: false }, (err, doc) => {
         if (err) console.log(err.message)
         else if (doc) {
@@ -61,4 +61,4 @@ function sendServer() {
     })
 }
 
-setInterval(sendServer, 5000)
+setInterval(checkSentStatus, 5000)
