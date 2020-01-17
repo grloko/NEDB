@@ -1,0 +1,13 @@
+{
+  "name": "NEDB",
+  "version": "1.0.0",
+  "description": "teste",
+  "main": "index.js",
+  "repository": "https://github.com/grloko/NEDB",
+  "author": "Gabriel RIos",
+  "license": "MIT",
+  "dependencies": {
+    "nedb": "^1.8.0",
+    "nodes7": "^0.3.10"
+  }
+}
